@@ -1,0 +1,39 @@
+.about {
+    padding-top: 220px;
+    padding-bottom: 255px;
+    position: relative;
+    z-index: 3;
+}
+.about__text {
+    max-width: 680px;
+    h1 {
+        font-size: 49px;
+    }
+    h2 {
+        text-align: left;
+        margin-bottom: 32px;
+    }
+    p {
+        color: #b6b5d7;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.352;
+    }
+}
+/* .phone {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+.pin-spacer {
+    margin: 0 !important;
+    margin-left: auto !important;
+} */

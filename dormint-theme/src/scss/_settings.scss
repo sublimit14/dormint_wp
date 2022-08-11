@@ -1,0 +1,87 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #1f203d;
+  color: $white;
+  &.fixed {
+    overflow: hidden;
+  }
+}
+.container {
+  margin: 0 auto;
+  max-width: 1564px;
+  padding: 0 20px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+  min-width: 0;
+}
+.ooter {
+  flex-shrink: 0;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+.fancybox__backdrop{
+  background-color: rgba($color: #1f203d, $alpha: 0.85);
+}
+
+.policy {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  text-align: left;
+  * {
+    text-align: left;
+  }
+  h1 {
+    text-align: center;
+    @media (max-width: 991px) {
+      text-align: left;
+    }
+  }
+  h2 {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    @media (max-width: 991px) {
+      font-size: 26px;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: .6;
+  }
+}
+
+.wpcf7-response-output {
+  display: none;
+}
+.wpcf7-not-valid-tip {
+  color: #c71717;
+  margin-top: 15px;
+  opacity: .7;
+}
+.counter {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  line-height: 1.3;
+  display: inline-block;
+  span {
+    font-weight: 700;
+  }
+}

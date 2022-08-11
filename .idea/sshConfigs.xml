@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="uicode.beget.tech" id="f2c461d6-27fc-4945-b73e-14c79d3e3a83" port="22" nameFormat="DESCRIPTIVE" username="uicode_admin" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+.screens {
+  padding: 60px 0;
+  @media (max-width: 768px) {
+    padding: 30px 0;
+
+  }
+  h2 {
+    text-align: left;
+  }
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    @media (max-width: 1385px) {
+     overflow-y: auto;
+      padding-bottom: 15px;
+    }
+    &__item {
+      max-width: 245px;
+      @media (max-width: 1636px) {
+        max-width: 208px;
+      }
+      img {
+        border-radius: 8px;
+        @media (max-width: 1636px) {
+          height: 450px;
+          width: auto;
+        }
+        @media (max-width: 768px) {
+          height: 400px;
+        }
+      }
+
+      h3 {
+        margin-top: 25px;
+        font-size: 19px;
+        line-height: 130%;
+        letter-spacing: 0.01em;
+        font-weight: 700;
+        @media (max-width: 1636px) {
+          font-size: 17px;
+        }
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+
+      p {
+        margin-top: 12px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: -0.355556px;
+        color: #B6B5D7;
+        @media (max-width: 768px) {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+@mixin adaptivValue($property, $startSize, $minSize, $type) {
+    $addSize: $startSize - $minSize;
+    @if $type==1 {
+        #{$property}: $startSize + px;
+        @media (max-width: #{$maxWidthContainer + px}) {
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) /#{$maxWidthContainer - 320}));
+        }
+    } @else if $type == 2 {
+        #{$property}: $startSize + px;
+        @media (min-width: #{$maxWidthContainer + px}) {
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) /#{$maxWidth - 320}));
+        }
+    } @else {
+        #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) /#{$maxWidth - 320}));
+    }
+}
+
+$maxWidth: 1920;
+$maxWidthContainer: 1600;
+.road {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    .container-fluid {
+        background: #25274b;
+        @include adaptivValue("padding-bottom", 140, 60, 1);
+        @include adaptivValue("padding-top", 140, 60, 1);
+        position: relative;
+    }
+}
+.road-slider-inner {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1880px;
+    width: 100%;
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: #2d2f54;
+        height: 1px;
+
+        left: 0;
+        right: 0;
+        top: 58px;
+    }
+}
+.road-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+    h2 {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $blue;
+        margin-bottom: 8px;
+    }
+    .col {
+        position: relative;
+        &:last-child {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.road-slide__name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    span {
+        background-color: $green;
+        text-transform: uppercase;
+        padding: 4px 6px;
+        margin-left: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 100px;
+        display: none;
+    }
+}
+.road-slide.road-slide--done {
+    .road-slide__name span {
+        display: block;
+    }
+    svg path {
+        fill: $green;
+    }
+}
+.road-slide {
+    cursor: e-resize;
+    svg path {
+        fill: url(#paint0_linear_407_112);
+    }
+    svg {
+        margin-bottom: 24px;
+    }
+    ul {
+        list-style: none;
+        li {
+            font-size: 20px;
+            font-weight: 500;
+            padding-left: 15px;
+            line-height: 1.352;
+            color: #b6b5d7;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #ffffff;
+                opacity: 0.3;
+            }
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

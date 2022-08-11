@@ -1,0 +1,11 @@
+.advisors__items {
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1185px;
+    width: 100%;
+    margin: 0 auto;
+    .team-item {
+        width: calc(33.3333% - 15px);
+    }
+}

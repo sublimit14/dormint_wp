@@ -1,0 +1,38 @@
+@mixin adaptivValue($property, $startSize, $minSize, $type) {
+    $addSize: $startSize - $minSize;
+    @if $type==1 {
+        #{$property}: $startSize + px;
+        @media (max-width: #{$maxWidthContainer + px}) {
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) /#{$maxWidthContainer - 320}));
+        }
+    } @else if $type == 2 {
+        #{$property}: $startSize + px;
+        @media (min-width: #{$maxWidthContainer + px}) {
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) /#{$maxWidth - 320}));
+        }
+    } @else {
+        #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) /#{$maxWidth - 320}));
+    }
+}
+
+$maxWidth: 1920;
+$maxWidthContainer: 1600;
+
+.featured__items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.featured__item{
+    width: 25%;
+    padding: 24px;
+    margin-bottom: 30px;
+    img{
+        width: 100%;
+        object-fit: contain;
+        max-height: 60px;
+    }
+}
+.as-featured-in{
+    @include adaptivValue("padding-bottom", 120, 60, 1);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "dormint",
+  "version": "1.0.0",
+  "description": "Dormint landing page",
+  "main": "index.html",
+  "scripts": {},
+  "author": "Bogdan Dolgopolov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-google": "^0.14.0",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.52.2",
+    "sass-loader": "^12.1.0",
+    "webpack-livereload-plugin": "^1.2.0"
+  }
+}

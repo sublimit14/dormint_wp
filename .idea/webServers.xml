@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e7a7050f-b9a8-44d9-85ab-5787516f53b0" name="Dormint">
+        <fileTransfer rootFolder="/home/u/uicode" accessType="SFTP" host="uicode.beget.tech" port="22" sshConfigId="f2c461d6-27fc-4945-b73e-14c79d3e3a83" sshConfig="uicode_admin@uicode.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ac7ad5e9-d4bb-4da0-8e32-2cd42d941018" name="TimeWebDormint" url="http://vh364.timeweb.ru">
+        <fileTransfer host="vh364.timeweb.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
