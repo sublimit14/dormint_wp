@@ -182,7 +182,7 @@
                                     <h3>Get immediate access to a Demo version of the Dormint iOS application</h3>
                                     <?php echo do_shortcode('[contact-form-7 id="113" title="App Store Email"]'); ?>
                                     <span class="message-span">The invitation has been sent. If you do not receive the invitation message - please check your Spam folder</span>
-                                    <h5 class="counter"><span><?php echo $int_testing; ?> member</span> have already requested a Demo version of the app</h5>
+                                    <h5 class="counter"><span><?php echo $int_testing; ?> members</span> have already requested a Demo version of the app</h5>
                                 </div>
                             </div>
 
@@ -191,7 +191,7 @@
                                     <h3>Get immediate access to a Demo version of the Dormint Android application</h3>
                                     <?php echo do_shortcode('[contact-form-7 id="114" title="Google Play Email"]'); ?>
                                     <span class="message-span">The invitation has been sent. If you do not receive the invitation message - please check your Spam folder</span>
-                                    <h5 class="counter"><span><?php echo $int_testing; ?> member</span> have already requested a Demo version of the app</h5>
+                                    <h5 class="counter"><span><?php echo $int_testing; ?> members</span> have already requested a Demo version of the app</h5>
                                 </div>
                             </div>
                         <!--                        <a class="btn" href="-->
@@ -535,7 +535,8 @@
     <?php } ?>
 
     <?php if (get_field('activation_team')) { ?>
-        <section class="the-team" id="team"><img src="<?php echo get_template_directory_uri() . '/src/img/circle-small.png' ?>" alt="circle" class="circle">
+        <section class="the-team" id="team">
+            <img src="<?php echo get_template_directory_uri() . '/src/img/circle-small.png' ?>" alt="circle" class="circle">
             <img src="<?php echo get_template_directory_uri() . '/src/img/circle-big.png' ?>" alt="" class="circle circle--big">
             <div class="container-fluid">
 
@@ -594,13 +595,13 @@
                         <?php endwhile; ?>
                         <?php wp_reset_postdata(); ?>
 
-
                     </div>
+        </section>
     <?php } ?>
     <?php if (get_field('activation_advisors')) { ?>
+        <section class="the-team" id="team">
                     <h2>The <span>Advisors</span></h2>
                     <div class="advisors__items">
-
                         <?php
                         $term = get_queried_object();
                         $term_slug = $term->slug;
@@ -645,7 +646,6 @@
                                         <p class="people__position"><?php the_field('people_position'); ?></p>
                                         <p class="people__descr"><?php the_field('people_bio'); ?></p>
                                     </div>
-
                                 </div>
                             </div>
 
@@ -654,8 +654,6 @@
 
                     </div>
                 </div>
-
-            </div>
         </section>
     <?php } ?>
 
@@ -794,9 +792,9 @@
 
                 ?>
                 <h3 class="counter"><span><?php echo $int; ?> members</span> have already subscribed to our newsletter</h3>
-            </div>
+            </div> <!-- container subscribe to our newsletter -->
         </div>
-    </section>
+    </section> <!-- newsletter -->
 
 </div>
 </div>

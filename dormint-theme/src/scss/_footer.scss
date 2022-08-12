@@ -33,7 +33,7 @@ $maxWidthContainer: 1600;
     }
 }
 .footer-bottom {
-    //display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 400;
@@ -51,8 +51,11 @@ $maxWidthContainer: 1600;
 }
 .footer-body {
     display: flex;
-
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
     .col:first-child {
         ul {
             margin-top: 53px;

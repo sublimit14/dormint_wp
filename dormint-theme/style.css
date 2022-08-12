@@ -344,6 +344,10 @@ ul.header-desktop li a {
 .footer-body {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
 }
 .footer-body .col:first-child ul {
   margin-top: 53px;
@@ -2403,7 +2407,7 @@ header.header-content.scroll .container {
 }
 @media (max-width: 1600px) {
   .team-items {
-    margin-bottom: calc(20px + 130 * ((100vw - 320px) /1280));
+    margin-bottom: calc(20px + 70 * ((100vw - 320px) /1280));
   }
 }
 
@@ -3246,7 +3250,7 @@ header.header-content.scroll .container {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .footer-body .col:first-child > svg {
     display: none;

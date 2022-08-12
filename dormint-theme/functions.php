@@ -12,6 +12,7 @@ function dormint_scripts() {
     wp_enqueue_script( 'dormint-gsap-js', 'https://unpkg.co/gsap@3/dist/gsap.min.js', array(), "", true);
     wp_enqueue_script( 'dormint-gsap-scroll-js', 'https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js', array(), "", true);
     wp_enqueue_script( 'dormint-swiper-js', 'https://unpkg.com/swiper@8/swiper-bundle.min.js', array(), "", true);
+    wp_enqueue_script( 'dormint-tippy-js', 'https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.3/tippy.all.min.js', array(), "", true);
     wp_enqueue_script( 'dormint-chartjs-js', 'https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js', array(), "", true);
     wp_enqueue_script( 'dormint-js', get_template_directory_uri() . '/src/js/main.js', array(), "", true);
     wp_enqueue_style( 'dormint-styles', get_stylesheet_uri(), array(), 1.0 );
