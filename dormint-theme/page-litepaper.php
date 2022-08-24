@@ -157,7 +157,7 @@
                 <div class="container-fluid">
                     <div class="container">
                         <div class="pillows-types-head">
-                            <p><a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> characteristics</p>
+                            <p>Pillows characteristics</p>
                             <h2>Pillows types</h2>
                             <p>We are all unique when it comes to our sleeping habits, and Dormint has come up with
                                 a solution that hopes to engage every type of sleeper out there whilst minimising

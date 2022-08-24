@@ -60,9 +60,16 @@
                         <li><a href="<?php echo get_page_link(121); ?>">Litepaper</a></li>
                         <li><a class="scroll-to" href="#about">About us</a></li>
                         <li><a class="scroll-to" href="#road">Roadmap</a></li>
-                        <li><a class="scroll-to" href="#video">Videos</a></li>
-                        <li><a class="scroll-to" href="#team">Team</a></li>
-                        <li><a class="scroll-to" href="#backers">Backers</a></li>
+                        <?php if (get_field('activation_videos')) { ?>
+                            <li><a class="scroll-to" href="#video">Videos</a></li>
+                        <?php } ?>
+                        <?php if (get_field('activation_team')) { ?>
+                            <li><a class="scroll-to" href="#team">Team</a></li>
+                        <?php } ?>
+                        <?php if (get_field('activation_our_backers')) { ?>
+                            <li><a class="scroll-to" href="#backers">Backers</a></li>
+                        <?php } ?>
+
                     </ul>
                     <div class="header__btn-inner">
                         <button type="button" class="header__btn js-menu-open">
