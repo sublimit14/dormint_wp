@@ -1267,6 +1267,7 @@ header.header-content {
 @import "blocks/the-advisors";
 @import "blocks/our-backers";
 @import "blocks/get-started";
+
 @media (hover), (min-width: 0\0), (min--moz-device-pixel-ratio: 0) {
     .team-item__more:hover {
         color: $blue;
@@ -2143,7 +2144,6 @@ header.header-content {
     }
     .advisors__items {
         flex-wrap: wrap;
-        flex-wrap: nowrap;
         overflow-x: auto;
         .team-item {
             flex-basis: auto;

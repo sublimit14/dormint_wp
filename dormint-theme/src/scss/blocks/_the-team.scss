@@ -33,10 +33,9 @@ $maxWidthContainer: 1600;
         bottom: -41%;
     }
     .container-fluid {
-        @include adaptivValue("padding-bottom", 150, 60, 1);
-        @include adaptivValue("padding-top", 150, 60, 1);
+        @include adaptivValue("padding-bottom", 70, 60, 1);
+        @include adaptivValue("padding-top", 70, 60, 1);
         position: relative;
-
         z-index: 3;
         background-color: $bg;
     }
