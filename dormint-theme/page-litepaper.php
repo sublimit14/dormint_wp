@@ -1172,10 +1172,7 @@
                         <h2>Tokenomics</h2>
                         <h3>What is DORM? </h3>
                         <p>
-                            <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a>
-                            is an essential part of Dormint and has several implications for different user
-                            groups. <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is a BEP-20 utility token built on the Binance Smart Chain that has the
-                            following uses:
+                            <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is an essential part of Dormint and has several implications for different user groups. <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is a utility token that has the following uses:
                         </p>
                     </div>
                     <div class="tokenomics-inner">
@@ -1192,9 +1189,7 @@
                                 </li>
                                 <li>
                                     <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used for regular leveling-up of any <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a>, even more DORM is used if
-                                        a
-                                        user wants to speed up this process</p>
-
+                                        a user wants to speed up this process</p>
                                 </li>
                                 <li>
                                     <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used for buying any additional items (such as Boosters) on
@@ -1504,10 +1499,9 @@
             <?php if (get_field('activation_advisors')) { ?>
                         <h2>The <span>Advisors</span></h2>
                         <div class="advisors__items">
-
                             <?php
-                            $term = get_queried_object();
-                            $term_slug = $term->slug;
+                                $term = get_queried_object();
+                                $term_slug = $term->slug;
                             ?>
                             <?php
                             $join = new WP_Query(array(

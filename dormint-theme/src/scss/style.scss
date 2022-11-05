@@ -2140,7 +2140,8 @@ header.header-content {
         padding-bottom: 45px;
     }
     .featured__items {
-        justify-content: space-between;
+        //justify-content: space-between;
+        justify-content: center;
     }
     .advisors__items {
         flex-wrap: wrap;

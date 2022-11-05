@@ -42,8 +42,13 @@ $maxWidthContainer: 1600;
 }
 .team-items {
     display: flex;
-    justify-content: space-between;
-    @include adaptivValue("margin-bottom", 150, 20, 1);
+    //justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    @media screen and (max-width: 768px) {
+        justify-content: space-between;
+    }
+    @include adaptivValue("margin-bottom", 80, 20, 1);
 }
 .team-item {
     cursor: pointer;
@@ -115,4 +120,8 @@ $maxWidthContainer: 1600;
 }
 .litepaper .the-team .container-fluid {
     background-color: transparent !important;
+}
+
+.team-items-center {
+    //justify-content: center;
 }

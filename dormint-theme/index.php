@@ -504,31 +504,31 @@
     <?php } ?>
 
     <?php if (get_field('activation_as_featured_in')) { ?>
-        <section class="activation_as_featured_in">
+        <section class="activation_as_featured_in" id="partners">
             <div class="container">
-                <h2>As <span>featured</span> in</h2>
+                <h2>Partners</h2>
                 <div class="featured__items">
                     <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/bloomberg.png' ?>" alt="bloomberg dormint">
+                        <img src="<?php echo get_template_directory_uri() . '/src/img/polygon.png' ?>" alt="polygon dormint">
                     </div>
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/yahoo-news.png' ?>" alt="yahoo-news dormint">
-                    </div>
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/yahoo-finance.png' ?>" alt="yahoo-finance dormint">
-                    </div>
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/cointelegraph.png' ?>" alt="cointelegraph dormint">
-                    </div>
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/benzinga.png' ?>" alt="benzinga dormint">
-                    </div>
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/nasdaq.png' ?>" alt="nasdaq dormint">
-                    </div>
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/marketwatch.png' ?>" alt="marketwatch dormint">
-                    </div>
+<!--                    <div class="featured__item">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/yahoo-news.png' ?><!--" alt="yahoo-news dormint">-->
+<!--                    </div>-->
+<!--                    <div class="featured__item">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/yahoo-finance.png' ?><!--" alt="yahoo-finance dormint">-->
+<!--                    </div>-->
+<!--                    <div class="featured__item">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/cointelegraph.png' ?><!--" alt="cointelegraph dormint">-->
+<!--                    </div>-->
+<!--                    <div class="featured__item">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/benzinga.png' ?><!--" alt="benzinga dormint">-->
+<!--                    </div>-->
+<!--                    <div class="featured__item">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/nasdaq.png' ?><!--" alt="nasdaq dormint">-->
+<!--                    </div>-->
+<!--                    <div class="featured__item">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/marketwatch.png' ?><!--" alt="marketwatch dormint">-->
+<!--                    </div>-->
                 </div>
             </div>
         </section>
@@ -542,7 +542,7 @@
 
                 <div class="container">
                     <h2>The Team</h2>
-                    <div class="team-items">
+                    <div class="team-items team-items-center">
                         <?php
                         $term = get_queried_object();
                         $term_slug = $term->slug;
@@ -599,9 +599,9 @@
         </section>
     <?php } ?>
     <?php if (get_field('activation_advisors')) { ?>
-        <section class="the-team" id="team">
+        <section class="the-team the-advisors" id="team">
                     <h2>The <span>Advisors</span></h2>
-                    <div class="advisors__items">
+                    <div class="team-items">
                         <?php
                         $term = get_queried_object();
                         $term_slug = $term->slug;
@@ -624,7 +624,8 @@
 
                             <div class="team-item" data-src="#modal-people-<?php the_id(); ?>" data-fancybox>
                                 <div class="team-item__info">
-                                    <img src="<?php the_field('people_img'); ?>" alt="<?php the_title(); ?>">
+                                    <img class="people_img" src="<?php the_field('people_img'); ?>" alt="<?php the_title(); ?>">
+                                    <img class="people_img_hover" src="<?php the_field('people_img_hover'); ?>" alt="<?php the_title(); ?>">
                                     <a href="<?php the_field('people_link'); ?>" class="team-item__link"
                                        target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -646,6 +647,7 @@
                                         <p class="people__position"><?php the_field('people_position'); ?></p>
                                         <p class="people__descr"><?php the_field('people_bio'); ?></p>
                                     </div>
+
                                 </div>
                             </div>
 

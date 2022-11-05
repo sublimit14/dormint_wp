@@ -1,7 +1,13 @@
-.advisors__items {
+.the-advisors {
+    margin: 70px 0;
+    @media (max-width: 1100px) {
+        margin: 50px 0;
 
+    }
+}
+.advisors__items {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1185px;
     width: 100%;
     margin: 0 auto;

@@ -69,7 +69,7 @@
                         <?php if (get_field('activation_our_backers')) { ?>
                             <li><a class="scroll-to" href="#backers">Backers</a></li>
                         <?php } ?>
-
+                        <li><a class="scroll-to" href="#partners">Partners</a></li>
                     </ul>
                     <div class="header__btn-inner">
                         <button type="button" class="header__btn js-menu-open">
@@ -100,11 +100,12 @@
                                     <nav class="menu">
                                         <ul class="menu__list">
                                             <li><a href="<?php echo get_page_link(121); ?>">Litepaper</a></li>
-                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#about">About dormint</a></li>
+                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#about">About Dormint</a></li>
                                             <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#road">Roadmap </a></li>
-                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#video">Videos</a></li>
+                                            <!-- <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#video">Videos</a></li> -->
                                             <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#team">Team</a></li>
-                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#backers">Backers</a></li>
+                                            <!-- <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#backers">Backers</a></li> -->
+                                             <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#partners">Partners</a></li>
                                         </ul>
                                     </nav>
                                     <div class="banner__buttons banner__buttons-mmenu">
