@@ -31,6 +31,26 @@ add_action('init', 'register_post_type_videos');
 add_action('init', 'register_post_type_people');
 add_action( 'init', 'true_register_taxonomy_people' );
 
+
+//CARBON FIELDS
+use Carbon_Fields\Container;
+use Carbon_Fields\Field;
+
+add_action( 'carbon_fields_register_fields', 'crb_attach_theme_options' );
+function crb_attach_theme_options() {
+    Container::make( 'theme_options', __( 'Partners logo' ) )
+
+        ->add_tab( 'Partners logo', [
+
+            Field::make( 'complex', 'partners_img', 'Partners logo' )
+                ->add_fields( array(
+                    Field::make( 'image', 'partner_icon', 'Logo' ),
+                ) )
+
+        ] );
+}
+
+
 function register_post_type_join()
 {
     register_post_type('join', [

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="TimeWebDormint" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc;node_modules;*.mix.js;*.json; scss" confirmBeforeUploading="false" confirmBeforeDeletion="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="ftp.dormint.io" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc;node_modules;*.mix.js;*.json; scss" confirmBeforeUploading="false" confirmBeforeDeletion="false" autoUploadExternalChanges="true">
     <option name="confirmBeforeDeletion" value="false" />
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
@@ -15,6 +15,13 @@
         <serverdata>
           <mappings>
             <mapping deploy="/wp-content/themes/dormint-theme" local="$PROJECT_DIR$/dormint-theme" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ftp.dormint.io">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/wp-content/themes/dormint-theme" local="$PROJECT_DIR$/dormint-theme" web="http://dormint.io/" />
           </mappings>
         </serverdata>
       </paths>

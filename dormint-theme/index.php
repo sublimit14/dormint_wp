@@ -503,36 +503,7 @@
         </section>
     <?php } ?>
 
-    <?php if (get_field('activation_as_featured_in')) { ?>
-        <section class="activation_as_featured_in" id="partners">
-            <div class="container">
-                <h2>Partners</h2>
-                <div class="featured__items">
-                    <div class="featured__item">
-                        <img src="<?php echo get_template_directory_uri() . '/src/img/polygon.png' ?>" alt="polygon dormint">
-                    </div>
-<!--                    <div class="featured__item">-->
-<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/yahoo-news.png' ?><!--" alt="yahoo-news dormint">-->
-<!--                    </div>-->
-<!--                    <div class="featured__item">-->
-<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/yahoo-finance.png' ?><!--" alt="yahoo-finance dormint">-->
-<!--                    </div>-->
-<!--                    <div class="featured__item">-->
-<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/cointelegraph.png' ?><!--" alt="cointelegraph dormint">-->
-<!--                    </div>-->
-<!--                    <div class="featured__item">-->
-<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/benzinga.png' ?><!--" alt="benzinga dormint">-->
-<!--                    </div>-->
-<!--                    <div class="featured__item">-->
-<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/nasdaq.png' ?><!--" alt="nasdaq dormint">-->
-<!--                    </div>-->
-<!--                    <div class="featured__item">-->
-<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/marketwatch.png' ?><!--" alt="marketwatch dormint">-->
-<!--                    </div>-->
-                </div>
-            </div>
-        </section>
-    <?php } ?>
+
 
     <?php if (get_field('activation_team')) { ?>
         <section class="the-team" id="team">
@@ -658,6 +629,25 @@
                 </div>
         </section>
     <?php } ?>
+
+    <?php if (get_field('activation_as_featured_in')) { ?>
+        <section class="activation_as_featured_in" id="partners">
+            <div class="container">
+                <h2>Partners</h2>
+                <div class="featured__items">
+
+                    <?php $parts = carbon_get_theme_option('partners_img'); ?>
+
+                    <?php foreach ($parts as $part) : ?>
+                        <div class="featured__item">
+                            <?php echo wp_get_attachment_image($part['partner_icon'], 'full') ?>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </section>
+    <?php } ?>
+
 
     <?php if (get_field('activation_our_backers')) { ?>
         <section class="our-backers" id="backers">

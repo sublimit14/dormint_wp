@@ -16,6 +16,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="621eb792-9fb7-4469-a946-e8651c7f7f0a" name="ftp.dormint.io" url="http://ftp.dormint.io">
+        <fileTransfer rootFolder="/public_html" host="ftp.dormint.io" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
