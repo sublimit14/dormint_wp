@@ -1496,66 +1496,66 @@
 
                         </div>
                         <?php } ?>
-            <?php if (get_field('activation_advisors')) { ?>
-                        <h2>The <span>Advisors</span></h2>
-                        <div class="advisors__items">
-                            <?php
+                        <?php if (get_field('activation_advisors')) { ?>
+                        <section class="the-team the-advisors" id="team">
+                            <h2>The <span>Advisors</span></h2>
+                            <div class="team-items">
+                                <?php
                                 $term = get_queried_object();
                                 $term_slug = $term->slug;
-                            ?>
-                            <?php
-                            $join = new WP_Query(array(
-                                    'post_type' => 'people',
-                                    'posts_per_page' => -1,
-                                    'tax_query' => array(
-                                        array(
-                                            'taxonomy' => 'group',
-                                            'field' => 'slug',
-                                            'terms' => 'advisors',
+                                ?>
+                                <?php
+                                $join = new WP_Query(array(
+                                        'post_type' => 'people',
+                                        'posts_per_page' => -1,
+                                        'tax_query' => array(
+                                            array(
+                                                'taxonomy' => 'group',
+                                                'field' => 'slug',
+                                                'terms' => 'advisors',
+                                            ),
                                         ),
-                                    ),
-                                )
-                            ); ?>
+                                    )
+                                ); ?>
 
-                            <?php while ($join->have_posts()) : $join->the_post(); ?>
+                                <?php while ($join->have_posts()) : $join->the_post(); ?>
 
-                                <div class="team-item" data-src="#modal-people-<?php the_id(); ?>" data-fancybox>
-                                    <div class="team-item__info">
-                                        <img src="<?php the_field('people_img'); ?>" alt="<?php the_title(); ?>">
-                                        <a href="<?php the_field('people_link'); ?>" class="team-item__link"
-                                           target="_blank">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                 viewBox="0 0 16 16" fill="none">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                      d="M13 0C14.6558 0 16 1.3443 16 3V13C16 14.6557 14.6557 16 13 16H3C1.3443 16 0 14.6557 0 13V3C0 1.3443 1.3442 0 3 0H13ZM2.3712 13.6342H4.7464V5.9984H2.3712V13.6342ZM13.6346 13.6342V9.4465C13.6346 7.39 13.1906 5.8086 10.7883 5.8086C9.6336 5.8086 8.8589 6.442 8.5425 7.0424H8.51V5.9984H6.2348V13.6342H8.6051V9.8576C8.6051 8.8611 8.7936 7.8962 10.0287 7.8962C11.2465 7.8962 11.2621 9.0354 11.2621 9.9207V13.6342H13.6346ZM3.5592 4.9548C4.3183 4.9548 4.9348 4.3388 4.9348 3.5788C4.9348 2.8192 4.3183 2.2027 3.5592 2.2027C2.797 2.2027 2.1823 2.8192 2.1823 3.5788C2.1823 4.3388 2.797 4.9548 3.5592 4.9548Z"
-                                                      fill="white"/>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                    <p class="team-item__name"><?php the_title(); ?></p>
-                                    <p class="team-item__position"><?php the_field('people_position'); ?></p>
-                                    <p class="team-item__more">Read more →</p>
-                                    <div id="modal-people-<?php the_id(); ?>" class="modal-people modal">
-                                        <img src="<?php the_field('people_img_hover'); ?>" alt="<?php the_title(); ?>">
-                                        <div class="people__info">
-                                            <button class="close-modal-team">← back to team</button>
-                                            <p class="people__name close-model"><?php the_title(); ?></p>
-                                            <p class="people__position"><?php the_field('people_position'); ?></p>
-                                            <p class="people__descr"><?php the_field('people_bio'); ?></p>
+                                    <div class="team-item" data-src="#modal-people-<?php the_id(); ?>" data-fancybox>
+                                        <div class="team-item__info">
+                                            <img class="people_img" src="<?php the_field('people_img'); ?>" alt="<?php the_title(); ?>">
+                                            <img class="people_img_hover" src="<?php the_field('people_img_hover'); ?>" alt="<?php the_title(); ?>">
+                                            <a href="<?php the_field('people_link'); ?>" class="team-item__link"
+                                               target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                     viewBox="0 0 16 16" fill="none">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                          d="M13 0C14.6558 0 16 1.3443 16 3V13C16 14.6557 14.6557 16 13 16H3C1.3443 16 0 14.6557 0 13V3C0 1.3443 1.3442 0 3 0H13ZM2.3712 13.6342H4.7464V5.9984H2.3712V13.6342ZM13.6346 13.6342V9.4465C13.6346 7.39 13.1906 5.8086 10.7883 5.8086C9.6336 5.8086 8.8589 6.442 8.5425 7.0424H8.51V5.9984H6.2348V13.6342H8.6051V9.8576C8.6051 8.8611 8.7936 7.8962 10.0287 7.8962C11.2465 7.8962 11.2621 9.0354 11.2621 9.9207V13.6342H13.6346ZM3.5592 4.9548C4.3183 4.9548 4.9348 4.3388 4.9348 3.5788C4.9348 2.8192 4.3183 2.2027 3.5592 2.2027C2.797 2.2027 2.1823 2.8192 2.1823 3.5788C2.1823 4.3388 2.797 4.9548 3.5592 4.9548Z"
+                                                          fill="white"/>
+                                                </svg>
+                                            </a>
                                         </div>
+                                        <p class="team-item__name"><?php the_title(); ?></p>
+                                        <p class="team-item__position"><?php the_field('people_position'); ?></p>
+                                        <p class="team-item__more">Read more →</p>
+                                        <div id="modal-people-<?php the_id(); ?>" class="modal-people modal">
+                                            <img src="<?php the_field('people_img_hover'); ?>" alt="<?php the_title(); ?>">
+                                            <div class="people__info">
+                                                <button class="close-modal-team">← back to team</button>
+                                                <p class="people__name close-model"><?php the_title(); ?></p>
+                                                <p class="people__position"><?php the_field('people_position'); ?></p>
+                                                <p class="people__descr"><?php the_field('people_bio'); ?></p>
+                                            </div>
 
+                                        </div>
                                     </div>
-                                </div>
 
-                            <?php endwhile; ?>
-                            <?php wp_reset_postdata(); ?>
+                                <?php endwhile; ?>
+                                <?php wp_reset_postdata(); ?>
 
-                        </div>
+                            </div>
                     </div>
-
-                </div>
             </section>
-        <?php } ?>
+            <?php } ?>
         </div>
     </div>
 </div>
