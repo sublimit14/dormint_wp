@@ -22,6 +22,7 @@ $maxWidthContainer: 1600;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .featured__item{
     width: 35%;
@@ -30,7 +31,7 @@ $maxWidthContainer: 1600;
     img{
         width: 100%;
         object-fit: contain;
-        max-height: 60px;
+        max-height: 100px;
     }
 }
 .as-featured-in{

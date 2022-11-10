@@ -2346,6 +2346,7 @@ header.header-content.scroll .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .featured__item {
@@ -2357,7 +2358,7 @@ header.header-content.scroll .container {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  max-height: 60px;
+  max-height: 100px;
 }
 
 .as-featured-in {
