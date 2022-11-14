@@ -636,12 +636,15 @@
                 <h2>Partners</h2>
                 <div class="featured__items">
 
-                    <?php $parts = carbon_get_theme_option('partners_img'); ?>
+                    <?php
+                        $parts = carbon_get_theme_option('partners_img');
+//                        $link = carbon_get_theme_option('partner_link');
+                    ?>
 
                     <?php foreach ($parts as $part) : ?>
-                        <div class="featured__item">
+                        <a class="featured__item" href="<?php echo $part['partner_link'] ?>">
                             <?php echo wp_get_attachment_image($part['partner_icon'], 'full') ?>
-                        </div>
+                        </a>
                     <?php endforeach; ?>
                 </div>
             </div>

@@ -45,6 +45,7 @@ function crb_attach_theme_options() {
             Field::make( 'complex', 'partners_img', 'Partners logo' )
                 ->add_fields( array(
                     Field::make( 'image', 'partner_icon', 'Logo' ),
+                    Field::make( 'text', 'partner_link', 'Link' ),
                 ) )
 
         ] );
