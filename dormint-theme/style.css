@@ -151,6 +151,22 @@ body {
   font-weight: 700;
 }
 
+.polygon-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.email-footer {
+  margin: 60px 0 85px 0;
+  text-align: left;
+}
+@media screen and (max-width: 1023px) {
+  .email-footer {
+    margin: 40px 0 10px 0;
+  }
+}
+
 header {
   position: fixed;
   top: 60px;
