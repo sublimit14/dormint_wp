@@ -46,7 +46,7 @@
                                 form of <a href="javascript:void(0);" class="tooltip">NFT <span class="tooltiptext">Non-fungible token
 </span></a> (Non-fungible tokens). <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> are like a character in any video game -
                                 users level them up, customize, and boost them with additional in-game elements. The
-                                higher the level of your <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> the more <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> tokens you earn.</p>
+                                higher the level of your <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> the more <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> tokens you earn.</p>
                             <img src="<?php echo get_template_directory_uri() . '/src/img/pic-4.png' ?>" alt="Pillows dormint">
                         </div>
                         <div class="col">
@@ -142,7 +142,7 @@
                                 </div>
                             </div>
                             <p>Each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> will have a limited number of PMPs. The more PMPs a <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> has, the more
-                                <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> it will cost. The costs of Mint for each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that takes part in PMP are
+                                <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> it will cost. The costs of Mint for each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that takes part in PMP are
                                 calculated separately and added together for the final Minting cost.</p>
                             <p>Each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> can be a blueprint for PMP once every limited period, which will be
                                 determined after the simulations are finished.</p>
@@ -272,7 +272,7 @@
 
                                     <p class="pillow-attributes-item__descr">
                                         A good night’s rest can only be helped by feeling cosy. The higher this
-                                        attribute the more <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> earned. Additional Pillows
+                                        attribute the more <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> earned. Additional Pillows
                                     </p>
                                 </div>
                                 <div class="pillow-attributes-item">
@@ -325,10 +325,10 @@
                                 <p>Each level up of a <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> allows users to distribute additional points to any of
                                     the attributes. The number of additional level-up depends on <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> rarity.
                                 </p>
-                                <p>It is possible to level up <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> by burning <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a>. Each level-up takes a fixed
-                                    time to complete, which increases along with the amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> required
+                                <p>It is possible to level up <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> by burning <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a>. Each level-up takes a fixed
+                                    time to complete, which increases along with the amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> required
                                     according to the PIllow level. It is possible to make this process even faster
-                                    by using even more <a href="javascript:void(0);" class="tooltip">DORM<span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a>.</p>
+                                    by using even more <a href="javascript:void(0);" class="tooltip">DORM<span class="tooltiptext">DORM is a utility token of Dormint</span></a>.</p>
                             </div>
                         </div>
                     </div>
@@ -697,7 +697,7 @@
                         <div class="col">
                             <h2>Boosters</h2>
                             <p>When you don't sleep enough or fall out of the sleep cycle, you reduce the level of
-                                Health rate that lessens the amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> you earn.
+                                Health rate that lessens the amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> you earn.
                             </p>
                             <p>Boosters are obtained through an in-app Marketplace and can help to fully or
                                 partially remove negative deviations from the optimal levels of your metrics.</p>
@@ -752,11 +752,11 @@
                                         </defs>
                                     </svg>
                                     <p>Sleeping pills linearly or randomly (depending on the type) increase the
-                                        number of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> earned per sleep cycle, etc.
+                                        number of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> earned per sleep cycle, etc.
                                     </p>
                                 </li>
                             </ul>
-                            <p>You can buy Boosters for <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> tokens and activate them manually, or set an auto-use.
+                            <p>You can buy Boosters for <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> tokens and activate them manually, or set an auto-use.
                             </p>
                         </div>
                         <div class="col">
@@ -854,9 +854,9 @@
                     </div>
                     <div class="main-systems-bottom">
                         <h3>Earning Cap/Mechanics</h3>
-                        <p>There is a cap on the amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> a user is able to earn per day regardless of the
+                        <p>There is a cap on the amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> a user is able to earn per day regardless of the
                             <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> in their collection and Main Pillow Slot. This cap can only be increased by
-                            burning the required amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a>.</p>
+                            burning the required amount of <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a>.</p>
                         <div class="text-box">
                             <h3>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
@@ -877,7 +877,7 @@
                             <p>To prevent systemic abuse, a Sleeping ticket is issued every 12 hours and required to
                                 begin the Sleep cycle. Initially the user may only hold a single ticket, but may
                                 increase the amount by owning specific sets of <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a>.</p>
-                            <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> can only be earned for a Sleep cycle lasting at least 3 hours and by avoiding a
+                            <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> can only be earned for a Sleep cycle lasting at least 3 hours and by avoiding a
                                 Critical penalty. This occurs if the user wakes up in the middle of a cycle and does
                                 not return to sleep during a 30 minute Grace period which is expandable via
                                 Boosters.</p>
@@ -1172,37 +1172,37 @@
                         <h2>Tokenomics</h2>
                         <h3>What is DORM? </h3>
                         <p>
-                            <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is an essential part of Dormint and has several implications for different user groups. <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is a utility token that has the following uses:
+                            <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is an essential part of Dormint and has several implications for different user groups. <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is a utility token that has the following uses:
                         </p>
                     </div>
                     <div class="tokenomics-inner">
                         <div class="text-box">
                             <p>User rewards:</p>
-                            <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used to reward users according to the Earning Cap and Mechanics
+                            <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is used to reward users according to the Earning Cap and Mechanics
                             </p>
                             <p>Game mechanics: </p>
                             <ul>
                                 <li>
-                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used for PMP - the PMPs performed by a <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a>, the more -DORM it will
+                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is used for PMP - the PMPs performed by a <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a>, the more -DORM it will
                                         cost</p>
 
                                 </li>
                                 <li>
-                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used for regular leveling-up of any <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a>, even more DORM is used if
+                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is used for regular leveling-up of any <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a>, even more DORM is used if
                                         a user wants to speed up this process</p>
                                 </li>
                                 <li>
-                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used for buying any additional items (such as Boosters) on
+                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is used for buying any additional items (such as Boosters) on
                                         Marketplace</p>
                                 </li>
                                 <li>
-                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is used to increase the initial Earning Cap for a user’s account</p>
+                                    <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is used to increase the initial Earning Cap for a user’s account</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="text-box">
                             <p>Governance Vault:</p>
-                            <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM - BEP-20 utility token of Dormint</span></a> is a governance token that allows holders to participate in Governance decisions
+                            <p><a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is a governance token that allows holders to participate in Governance decisions
                                 of the platform, using a DAO structure. They can exercise voting rights on key
                                 elements such as feature prioritization on the platform Roadmap.</p>
                             <p>Staking:</p>
