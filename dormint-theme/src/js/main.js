@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
         const anchors = document.querySelectorAll('.scroll-to')
         for (let anchor of anchors) {
-            anchor.href = `https://dormint.io//${anchor.getAttribute('href')}`
+            anchor.href = `https://dormint.io/${anchor.getAttribute('href')}`
         }
     }
 
@@ -46,9 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 el.style.paddingRight = lockPaddingValue
             })
         }
-
         document.body.style.paddingRight = lockPaddingValue;
-
         document.body.classList.add('fixed');
     }
 
@@ -83,18 +81,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const anchors = document.querySelectorAll('header .menu__list a[href*="#"]')
-
+    console.log('anchors >>', anchors)
+    //problem
     for (let anchor of anchors) {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault()
+            // e.preventDefault()
             bodyUnLock()
             menu.classList.toggle('open');
-            const blockID = anchor.getAttribute('href').substr(1)
-
-            document.getElementById(blockID).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            })
+            // const blockID = anchor.hash
+            // // const blockID = anchor.getAttribute('href').substr(1)
+            //
+            // document.getElementById(blockID).scrollIntoView({
+            //     behavior: 'smooth',
+            //     block: 'start'
+            // })
         })
     }
 
@@ -198,7 +198,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const closeModalTeam = document.querySelectorAll('.close-modal-team')
-    console.log(closeModalTeam)
     closeModalTeam.forEach(modal => {
         modal && modal.addEventListener('click', () => {
             Fancybox.close()
@@ -242,20 +241,6 @@ document.addEventListener("DOMContentLoaded", () => {
             event.stopPropagation();
         })
     })
-
-    // let formEventSubmit = document.querySelectorAll('.wpcf7');
-    // formEventSubmit.forEach(form => {
-    //     form.addEventListener('wpcf7mailsent', function (event) {
-    //
-    //         if (event.detail.contactFormId === 5 ){
-    //             const message = document.querySelector('.thanks-modal')
-    //             const form = document.querySelector('.main_form')
-    //             message.classList.add('visible');
-    //             form.classList.add('hide');
-    //         }
-    //         console.log(event.detail.contactFormId)
-    //     }, false);
-    // })
 
     const tokenTimelineSlider = new Swiper('.token-timeline-slider', {
         navigation: {
@@ -328,7 +313,6 @@ var chartColors = {
 const labels = {};
 const data = {
 
-    // labels: ["Day 0", "Day 90", "Day 180", "Day 270", "Day 360", "Day 450", "Day 540", "Day 720", "Day 1095", "Day 1368"],
     labels: JSON.parse(chartDataAbscissa),
     datasets: [
         {
@@ -407,7 +391,6 @@ const getOrCreateLegendList = (chart, id) => {
 const htmlLegendPlugin = {
     id: 'htmlLegend',
     afterUpdate(chart, args, options) {
-        // console.log(options.containerID);
         const ul = getOrCreateLegendList(chart, options.containerID);
 
         // Remove old legend items

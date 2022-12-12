@@ -1,15 +1,3 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package burg
- */
-
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +7,6 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
         <?php
@@ -31,7 +18,6 @@
             echo ' | ';
             echo $site_description;
         endif;
-        // for other post pages
         if (!(is_home()) && !is_404()):
             the_title();
             echo ' | ';
@@ -100,12 +86,12 @@
                                     <nav class="menu">
                                         <ul class="menu__list">
                                             <li><a href="<?php echo get_page_link(121); ?>">Litepaper</a></li>
-                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#about">About Dormint</a></li>
-                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#road">Roadmap </a></li>
-                                            <!-- <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#video">Videos</a></li> -->
-                                            <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#team">Team</a></li>
-                                            <!-- <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#backers">Backers</a></li> -->
-                                             <li><a class="scroll-to" href="<?php echo get_home_url(); ?>/#partners">Partners</a></li>
+                                            <li><a class="scroll-to" href="#about">About Dormint</a></li>
+                                            <li><a class="scroll-to" href="#road">Roadmap </a></li>
+                                            <!-- <li><a class="scroll-to" href="#video">Videos</a></li> -->
+                                            <li><a class="scroll-to" href="#team">Team</a></li>
+                                            <!-- <li><a class="scroll-to" href="#backers">Backers</a></li> -->
+                                             <li><a class="scroll-to" href="#partners">Partners</a></li>
                                         </ul>
                                     </nav>
                                     <div class="banner__buttons banner__buttons-mmenu">

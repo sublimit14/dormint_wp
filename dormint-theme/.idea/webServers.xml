@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="07c0ead2-47eb-4153-91d1-889ef6a537ae" name="ftp.dormint.io" url="http://ftp.dormint.io">
-        <fileTransfer rootFolder="/public_html" host="ftp.dormint.io" port="21">
+      <webServer id="07c0ead2-47eb-4153-91d1-889ef6a537ae" name="ftp.dormint.io" url="http://162.241.253.105">
+        <fileTransfer rootFolder="/public_html" host="162.241.253.105" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
