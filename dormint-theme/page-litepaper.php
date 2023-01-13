@@ -52,7 +52,7 @@
                         <div class="col">
                             <h3>How to get a Pillow?</h3>
                             <p>The first 10 000 <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> are preminted and can be obtained on a future sale for
-                                enthusiasts that what to become beta-testers and receive additional benefits.</p>
+                                enthusiasts that want to become beta-testers and receive additional benefits.</p>
                             <div class="key-stages">
                                 <div class="text-box">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"
@@ -68,8 +68,8 @@
                                             </linearGradient>
                                         </defs>
                                     </svg>
-                                    <p>Other <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> will be generated through the Pillow-Minting Process (PMP)
-                                        occurs when players use two <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> as blueprints to "breed", thereby
+                                    <p>Other <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> will be generated through the Pillow-Minting Process (PMP).
+                                        It occurs when players use two <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> as blueprints to "breed", thereby
                                         creating a <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> box. For a PMP to begin, these two <a href="javascript:void(0);" class="tooltip">Pillows <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> must have full
                                         durability.
                                     </p>
@@ -142,8 +142,7 @@
                                 </div>
                             </div>
                             <p>Each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> will have a limited number of PMPs. The more PMPs a <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> has, the more
-                                <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> it will cost. The costs of Mint for each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that takes part in PMP are
-                                calculated separately and added together for the final Minting cost.</p>
+                                <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> it will cost. The costs of Mint for each Pillow that takes part in PMP are calculated separately.
                             <p>Each <a href="javascript:void(0);" class="tooltip">Pillow <span class="tooltiptext">An NFT that is required to use the features of Dormint</span></a> can be a blueprint for PMP once every limited period, which will be
                                 determined after the simulations are finished.</p>
                             <p>It should also be noticed that the rarity (that is described later) of a <a href="javascript:void(0);" class="tooltip">Pillow box <span class="tooltiptext">An item created during the PMP containing new Pillows</span></a>
@@ -272,7 +271,7 @@
 
                                     <p class="pillow-attributes-item__descr">
                                         A good night’s rest can only be helped by feeling cosy. The higher this
-                                        attribute the more <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> earned. Additional Pillows
+                                        attribute the more <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> earned.
                                     </p>
                                 </div>
                                 <div class="pillow-attributes-item">
