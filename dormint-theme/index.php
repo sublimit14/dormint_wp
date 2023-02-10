@@ -149,12 +149,20 @@
                     <p><?php the_field('hero_text'); ?></p>
                     <div class="banner__buttons">
 
-                        <a class="btn" data-src="#app-store-popup" data-fancybox>
+<!--                        <a class="btn" data-src="#app-store-popup" data-fancybox>-->
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/src/img/app-store.svg' ?><!--" alt="">-->
+<!--                        </a>-->
+<!--                        <a class="btn" data-src="#google-play-popup" data-fancybox>-->
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/src/img/google.svg' ?><!--" alt="">-->
+<!--                        </a>-->
+
+                        <a class="btn" href="https://forms.gle/fAWgKHPxs8553P1E7">
                             <img src="<?php echo get_template_directory_uri() . '/src/img/app-store.svg' ?>" alt="">
                         </a>
-                        <a class="btn" data-src="#google-play-popup" data-fancybox>
+                        <a class="btn" href="https://forms.gle/fAWgKHPxs8553P1E7">
                             <img src="<?php echo get_template_directory_uri() . '/src/img/google.svg' ?>" alt="">
                         </a>
+
                         <?php
 
                         $file = 'count2.txt';
