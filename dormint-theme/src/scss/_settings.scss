@@ -21,7 +21,7 @@ body {
   flex: 1 0 auto;
   min-width: 0;
 }
-.ooter {
+.footer {
   flex-shrink: 0;
 }
 html,
@@ -98,4 +98,11 @@ body {
   @media screen and (max-width: 1023px){
     margin: 40px 0 10px 0;
   }
+}
+.magic_eden {
+  display: inline-block;
+  padding: 21px;
+  background: #e80000;
+  border-radius: 24px;
+  margin-bottom: 84px;
 }

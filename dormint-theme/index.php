@@ -147,6 +147,9 @@
                 <div class="col">
                     <h1><?php the_field('hero_title'); ?></h1>
                     <p><?php the_field('hero_text'); ?></p>
+<!--                    <a href="https://polygon.magiceden.io/collections/polygon/0x02688Cb702e225D691a48C91c0beEA71515CD6E1?activeTab=items" class="magic_eden" target="_blank">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri() . '/src/img/magic_eden.png' ?><!--" alt="Magic Eden Dormint">-->
+<!--                    </a>-->
                     <div class="banner__buttons">
 
 <!--                        <a class="btn" data-src="#app-store-popup" data-fancybox>-->
@@ -157,10 +160,10 @@
 <!--                        </a>-->
 
                         <a class="btn" href="https://forms.gle/fAWgKHPxs8553P1E7">
-                            <img src="<?php echo get_template_directory_uri() . '/src/img/app-store.svg' ?>" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/src/img/app-store.svg' ?>" alt="App Store Dormint">
                         </a>
                         <a class="btn" href="https://forms.gle/fAWgKHPxs8553P1E7">
-                            <img src="<?php echo get_template_directory_uri() . '/src/img/google.svg' ?>" alt="">
+                            <img src="<?php echo get_template_directory_uri() . '/src/img/google.svg' ?>" alt="Google Play Dormint">
                         </a>
 
                         <?php
