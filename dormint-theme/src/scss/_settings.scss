@@ -102,7 +102,22 @@ body {
 .magic_eden {
   display: inline-block;
   padding: 21px;
-  background: #e80000;
+  background-color: white;
   border-radius: 24px;
   margin-bottom: 84px;
+  transition: background-color .2s ease-in-out;
+  &:hover {
+    background: rgba(255, 255, 255, 0.93);
+  }
+
+  @media screen and (max-width: 991px){
+    margin-bottom: 42px;
+  }
+
+  @media screen and (max-width: 460px){
+    width: 100%;
+    img {
+      width: inherit;
+    }
+  }
 }
