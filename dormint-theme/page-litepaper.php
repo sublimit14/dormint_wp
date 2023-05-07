@@ -1169,7 +1169,7 @@
                 <div class="container">
                     <div class="tokenomics-top">
                         <h2>Tokenomics</h2>
-                        <h3>What are DORM and RATE? </h3>
+                        <h3>What are DORMs and RATEs? </h3>
                         <p>
                             <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is an essential part of Dormint and has several implications for different user groups. <a href="javascript:void(0);" class="tooltip">DORM <span class="tooltiptext">DORM is a utility token of Dormint</span></a> is a utility token that has the following uses:
                         </p>
